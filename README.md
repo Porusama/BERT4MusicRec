@@ -27,9 +27,9 @@ git clone https://github.com/Porusama/BERT4MusicRec
 ```
 
 2. Установка зависимостей
-Основное необходимое ПО: Python v3.13.1, pip v25.2, Jupyter Notebook v7.3.2
-Не гарантируется, что скрипты отработают на более старших версиях.
-Необходимые Python модули можно установить командой:
+Основное необходимое ПО: Python v3.13.1, pip v25.2, Jupyter Notebook v7.3.2  
+Не гарантируется, что скрипты отработают на более старших версиях.  
+Необходимые Python модули можно установить командой из папки с репозиторием:
 
 ```bash
 pip install -r requirements.txt
@@ -77,7 +77,7 @@ jupyter notebook
 ├─ preprocessing_utils.py   — Утилиты для предобработки
 ├─ preprocessing.py         — Получение данных из СУБД, предобработка и сохранение в csv
 ├─ train.py                 — Цикл обучения модели
-├─ requirements.txt         — Необходимы python модули
+├─ requirements.txt         — Необходимыу python модули
 ├─ README.md
 └─ .gitignore
 ```

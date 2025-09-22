@@ -1,10 +1,6 @@
 import os
 from dotenv import load_dotenv
 
-from flask import Flask, request, jsonify
-import psycopg2 as sql_int
-import threading
-
 import pandas as pd
 
 from preprocessing_utils import preprocess_data, get_songs_le
@@ -166,6 +162,10 @@ def process_sql_request(playlist_id, conn, model, device):
     
 
 if __name__ == '__main__':
+    from flask import Flask, request, jsonify
+    import psycopg2 as sql_int
+    import threading
+    
     # Приложение
     app = Flask(__name__)
 

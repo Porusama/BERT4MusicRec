@@ -3,6 +3,7 @@ torch>=2.6.0
 torchmetrics>=1.7.1
 tqdm>=4.67.1
 scikit-learn>=1.6.1
+tensorboard>=2.19.0
 numpy
 pandas
 python-dotenv
