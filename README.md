@@ -77,7 +77,7 @@ jupyter notebook
 ├─ preprocessing_utils.py   — Утилиты для предобработки
 ├─ preprocessing.py         — Получение данных из СУБД, предобработка и сохранение в csv
 ├─ train.py                 — Цикл обучения модели
-├─ requirements.txt         — Необходимыу python модули
+├─ requirements.txt         — Необходимые python модули
 ├─ README.md
 └─ .gitignore
 ```
