@@ -1,5 +1,6 @@
 __pycache__
-sql_queries/*.sql
+sql queries/*.sql
+model/
 logs/
 *.pt
 .env
